@@ -1,0 +1,21 @@
+{
+  "name": "ember-modelinator",
+  "version": "1.0.0",
+  "description": "Runs ember blueprint cli commands to generate ember models based on model configuration yaml files.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember",
+    "nodejs",
+    "yaml"
+  ],
+  "author": "Reggie Bigornia",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "yaml": "^1.6.0"
+  }
+}

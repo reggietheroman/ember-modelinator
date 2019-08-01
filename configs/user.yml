@@ -1,0 +1,9 @@
+modelName: user
+options:
+  - attribute: age
+    type: number
+  - attribute: gender
+    type: string
+  - attribute: name
+    type: string
+
