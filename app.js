@@ -21,7 +21,7 @@ let getModels = function(filePaths) {
       files.push(model);
     } 
     catch (error) {
-      console.log(`error parsing file to yaml: ${filePath}`);
+      console.error(`error parsing file to yaml: ${filePath}`);
     }
   });
   return files;
